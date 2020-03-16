@@ -79,7 +79,7 @@ While it may happen that someone gets access to your kdbx file in the cloud, the
 
 ## Doesn't Keepass2Android create automatic backups?
 Yes and no. Yes: Keepass2Android stores the last successfully opened file as a read-only backup locally on the phone (unless you disable this is in the settings). This should make sure that even if the file gets destroyed during a save operation or gets deleted by accident, you should always have a version that can be opened. (Don't mix this up with the internal file cache which is not meant as a backup and can easily be overwritten even with a corrupt file. This internal file cache is meant for providing writable access even when the original file is not reachable, e.g. when you're offline.)
-No: The local backup has two shortcomings: It is only one backup and does not allow to revert to older versions. So if you deleted an entry from the database, it might be deleted in the local backup soon as well. The even more important shortcoming is that it is just a local backup. It won't help when your phone gets lost or broken. Please create additional backups on seperate storage!
+No: The local backup has two shortcomings: It is only one backup and does not allow to revert to older versions. So if you deleted an entry from the database, it might be deleted in the local backup soon as well. The even more important shortcoming is that it is just a local backup. It won't help when your phone gets lost or broken. Please create additional backups on separate storage!
 
 ## How do I backup the database?
 If you have stored your database on the cloud, you might rely on your cloud storage providers backups. Make sure they allow you to revert to older revisions in case the file gets corrupted for some reason.
